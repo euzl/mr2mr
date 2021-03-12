@@ -15,9 +15,6 @@ body {
     margin-left: 30px;
     padding:20px;
   }
-  #index {
-    border-right: 1px solid rosybrown;
-  }
   li {
     padding-bottom: 10px;
   }
@@ -43,4 +40,24 @@ body {
       display: block;
       border-right: none;
     }
+  }
+
+  .nightDayBtn {
+      margin-top: 30px;
+      width:77px;
+      height:50px;
+      border-radius: 25px;
+      background-color:seashell;
+      color: saddlebrown;
+      border: 2px rosybrown solid;
+  }
+  .nightDayBtn:hover {
+    background-color:saddlebrown;
+    color: white;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
