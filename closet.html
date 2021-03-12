@@ -5,7 +5,9 @@
     <title>Mr. 2MR</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slideShow.css">
     <script src="nightDay.js"></script>
+    <script src="slideShow.js"></script>
 </head>
 
 <body>
@@ -23,8 +25,22 @@
                 <li><a href="closet.html" title="이몽룡 옷장">Closet</a></li>
             </ol>
         </div>
-        <div>
+        <div class="mr_closet detail">
+            <div class="slideshow-container">
+
+                <div class="imageBox">
+                  <img id="image" src="./mrCloset/c1.png" style="width:100%">
+                  <div id="numbertext" class=".numbertext"></div>
+                  <div id="caption" class=".text">암행어사 출두요</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
         </div>
+    
     </div>
 </body>
 
